@@ -29,4 +29,9 @@
         'name' => 'serie',
         'list_title' => 'Serie list',
     ],
+    'form' => [
+        'series' => [
+          'label' => 'Series',
+        ],
+    ],
 ];
