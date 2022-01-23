@@ -1,0 +1,29 @@
+# Record name
+name: 'allekslar.series::lang.serie.name'
+
+# Model Form Field configuration
+form: $/allekslar/series/models/serie/fields.yaml
+
+# Model Class name
+modelClass: Allekslar\Series\Models\Serie
+
+# Default redirect location
+defaultRedirect: allekslar/series/series
+
+# Create page
+create:
+    title: 'backend::lang.form.create_title'
+    redirect: allekslar/series/series/update/:id
+    redirectClose: allekslar/series/series
+    flashSave: 'lovata.toolbox::lang.message.create_success'
+
+# Update page
+update:
+    title: 'backend::lang.form.update_title'
+    redirect: allekslar/series/series
+    redirectClose: allekslar/series/series
+    flashSave: 'lovata.toolbox::lang.message.update_success'
+    flashDelete: 'lovata.toolbox::lang.message.delete_success'
+
+# Preview page
+preview: {  }

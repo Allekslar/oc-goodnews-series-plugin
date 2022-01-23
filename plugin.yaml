@@ -1,0 +1,24 @@
+plugin:
+    name: 'allekslar.series::lang.plugin.name'
+    description: 'allekslar.series::lang.plugin.description'
+    author: Allekslar
+    icon: icon-sitemap
+    homepage: ''
+navigation:
+    series-menu-main:
+        label: 'allekslar.series::lang.menu.main'
+        url: allekslar/series/series
+        permissions:
+            - 'series-menu-*'
+        icon: icon-sitemap
+        sideMenu:
+            series-menu-series:
+                label: 'allekslar.series::lang.menu.series'
+                url: allekslar/series/series
+                permissions:
+                    - series-menu-series
+                icon: icon-sitemap
+permissions:
+    series-menu-series:
+        label: 'allekslar.series::lang.permission.serie'
+        tab: 'allekslar.series::lang.tab.permissions'

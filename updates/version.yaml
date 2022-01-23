@@ -1,0 +1,7 @@
+1.0.0:
+    - 'Init plugin'
+1.0.1:
+    - 'Create tables.'
+    - create_table_series.php
+    - 'Update tables.'
+    - update_table_article.php

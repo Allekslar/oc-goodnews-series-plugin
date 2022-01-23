@@ -1,0 +1,3 @@
+title: 'backend::lang.reorder.default_title'
+modelClass: Allekslar\Series\Models\Serie
+nameFrom: name
